@@ -1,2 +1,5 @@
-# CSS Country + currency flags
-Just an image sprite and some css mapping for every country and currency
+# CSS Country + currency flags for 3 letter codes
+
+Two options of displayng flags:
+- Sprite version (All countries and currencies)
+- Emoji version (All countries and currencies except XCD, XOF, XAF, XPF )
