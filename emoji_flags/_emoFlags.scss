@@ -1,0 +1,496 @@
+@charset "UTF-8";
+
+/*!
+ * _emoFlags.scss 
+ * Version - 1.0.0
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2018 Ritesh Makan
+ */
+
+
+[class^="ui-flag-"]:before, 
+[class*=" ui-flag-"]:before {
+    // content: '';
+    width: 24px;
+    line-height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.ui-flag-AFG::before, // {content: '🇦🇫';}  //Afghanistan AFN --- .ui-country*/
+.ui-flag-AFN::before {content: '🇦🇫';}  //Islamic Republic of Afghanistan --- .ui-currency*/
+.ui-flag-ALA::before {content: '🇦🇽';}  //Aland Islands EUR --- .ui-country*/
+.ui-flag-EUR::before {content: '🇪🇺';}  //European Economic Community --- .ui-currency
+.ui-flag-ALB::before, // {content: '🇦🇱';}  //Albania ALL --- .ui-country*/
+.ui-flag-ALL::before {content: '🇦🇱';}  //People's Socialist Republic of Albania --- .ui-currency*/
+.ui-flag-DZA::before, // {content: '🇩🇿';}  //Algeria DZD --- .ui-country*/
+.ui-flag-DZD::before {content: '🇩🇿';}  //People's Democratic Republic of Algeria --- .ui-currency*/
+.ui-flag-AND::before {content: '🇦🇩';}  //Andorra EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  European Economic Community --- .ui-currency
+.ui-flag-AGO::before, // {content: '🇦🇴';}  //Angola AOA --- .ui-country*/
+.ui-flag-AOA::before {content: '🇦🇴';}  //Republic of Angola --- .ui-currency*/
+.ui-flag-AIA::before {content: '🇦🇮';}  //Anguilla XCD --- .ui-country*/
+.ui-flag-XCD::before {content: '';}  ///*Organisation of Eastern Caribbean States --- .ui-currency*/
+.ui-flag-ATG::before {content: '🇦🇬';}  //Antigua & Barbuda XCD --- .ui-country*/
+.ui-flag-XCD::before {content: '';}  //Organisation of Eastern Caribbean States --- .ui-currency
+.ui-flag-ARG::before, // {content: '🇦🇷';}  //Argentina ARS --- .ui-country*/
+.ui-flag-ARS::before {content: '🇦🇷';}  //Argentine Republic --- .ui-currency*/
+.ui-flag-ARM::before, // {content: '🇦🇲';}  //Armenia AMD --- .ui-country*/
+.ui-flag-AMD::before {content: '🇦🇲';}  //Republic of Armenia --- .ui-currency*/
+.ui-flag-ABW::before, // {content: '🇦🇼';}  //Aruba AWG --- .ui-country*/
+.ui-flag-AWG::before {content: '🇦🇼';}  //Aruba --- .ui-currency*/
+.ui-flag-AUS,/*.ui-country*/
+.ui-flag-AUD::before {content: '🇦🇺';}  //Australia AUD --- .ui-country*/
+// .ui-flag-AUD::before {content: '🇦🇺';}  //Commonwealth of Australia --- .ui-currency*/
+.ui-flag-AUT::before {content: '🇦🇹';}  //Austria EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  European Economic Community --- .ui-currency
+.ui-flag-AZE::before, // {content: '🇦🇿';}  //Azerbaijan AZN --- .ui-country*/
+.ui-flag-AZN::before {content: '🇦🇿';}  //Republic of Azerbaijan --- .ui-currency*/
+.ui-flag-BHS::before, // {content: '🇧🇸';}  //Bahamas BSD --- .ui-country*/
+.ui-flag-BSD::before {content: '🇧🇸';}  //Commonwealth of the Bahamas --- .ui-currency*/
+.ui-flag-BHR::before, // {content: '🇧🇭';}  //Bahrain BHD --- .ui-country*/
+.ui-flag-BHD::before {content: '🇧🇭';}  //Kingdom of  Bahrain --- .ui-currency*/
+.ui-flag-BGD::before, // {content: '🇧🇩';}  //Bangladesh BDT --- .ui-country*/
+.ui-flag-BDT::before {content: '🇧🇩';}  //People's Republic of Bangladesh --- .ui-currency*/
+.ui-flag-BRB::before, // {content: '🇧🇧';}  //Barbados BBD --- .ui-country*/
+.ui-flag-BBD::before {content: '🇧🇧';}  //Barbados --- .ui-currency*/
+.ui-flag-BLR::before, // {content: '🇧🇾';}  //Belarus BYR --- .ui-country*/
+.ui-flag-BYR::before {content: '🇧🇾';}  //Republic of Belarus --- .ui-currency*/
+.ui-flag-BEL::before {content: '🇧🇪';}  //Belgium EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  European Economic Community --- .ui-currency
+.ui-flag-BLZ::before, // {content: '🇧🇿';}  //Belize BZD --- .ui-country*/
+.ui-flag-BZD::before {content: '🇧🇿';}  //Belize --- .ui-currency*/
+.ui-flag-BEN::before {content: '🇧🇯';}  //Benin XOF --- .ui-country*/
+// .ui-flag-XOF::before {content: '';}  //West African Economic and Monetary Union --- .ui-currency*/
+.ui-flag-BMU::before, // {content: '🇧🇲';}  //Bermuda BMD --- .ui-country*/
+.ui-flag-BMD::before {content: '🇧🇲';}  //Bermuda --- .ui-currency*/
+// .ui-flag-BTN::before {content: '🇧🇹';}  //Bhutan BTN --- .ui-country*/
+.ui-flag-BTN::before {content: '🇧🇹';}  //Kingdom of Bhutan --- .ui-currency*/
+.ui-flag-BOL::before, // {content: '🇧🇴';}  //Bolivia BOB --- .ui-country*/
+.ui-flag-BOB::before {content: '🇧🇴';}  //Republic of Bolivia --- .ui-currency*/
+.ui-flag-BIH::before {content: '🇧🇦';}  //Bosnia & Herzegovina BAM --- .ui-country*/
+.ui-flag-BAM::before {content: '🇧🇦';}  //Bosnia and Herzegovina --- .ui-currency*/
+.ui-flag-BWA::before, // {content: '🇧🇼';}  //Botswana BWP --- .ui-country*/
+.ui-flag-BWP::before {content: '🇧🇼';}  //Republic of Botswana --- .ui-currency*/
+.ui-flag-BRA::before, // {content: '🇧🇷';}  //Brazil BRL --- .ui-country*/
+.ui-flag-BRL::before {content: '🇧🇷';}  //Federative Republic of Brazil --- .ui-currency*/
+.ui-flag-BRN::before, // {content: '🇧🇳';}  //Brunei BND --- .ui-country*/
+.ui-flag-BND::before {content: '🇧🇳';}  //State of Brunei Darussalam --- .ui-currency*/
+.ui-flag-BGR::before , //{content: '🇧🇬';}  //Bulgaria BGN --- .ui-country*/
+.ui-flag-BGN::before {content: '🇧🇬';}  //People's Republic of Bulgaria --- .ui-currency*/
+.ui-flag-BFA::before {content: '🇧🇫';}  //Burkina Faso XOF --- .ui-country*/
+// .ui-flag-XOF::before {content: ''-418px }  //West African Economic and Monetary Union --- .ui-currency*/
+.ui-flag-BDI::before, // {content: '🇧🇮';}  //Burundi BIF --- .ui-country*/
+.ui-flag-BIF::before {content: '🇧🇮';}  //Republic of Burundi --- .ui-currency*/
+.ui-flag-KHM::before, // {content: '🇰🇭';}  //Cambodia KHR --- .ui-country*/
+.ui-flag-KHR::before {content: '🇰🇭';}  //Kingdom of Cambodia --- .ui-currency*/
+.ui-flag-CMR::before {content: '🇨🇲';}  //Cameroon XAF --- .ui-country*/
+// .ui-flag-XAF::before {content: '';}  //Economic and Monetary Community of Central Africa --- .ui-currency*/
+.ui-flag-CAN::before, // {content: '🇨🇦';}  //Canada CAD --- .ui-country*/
+.ui-flag-CAD::before {content: '🇨🇦';}  //Canada --- .ui-currency*/
+.ui-flag-CPV::before, // {content: '🇨🇻';}  //Cape Verde CVE --- .ui-country*/
+.ui-flag-CVE::before {content: '🇨🇻';}  //Republic of Cape Verde --- .ui-currency*/
+.ui-flag-CYM::before, // {content: '🇰🇾';}  //Cayman Islands KYD --- .ui-country*/
+.ui-flag-KYD::before {content: '🇰🇾';}  //Cayman Islands --- .ui-currency*/
+.ui-flag-CAF::before {content: '🇨🇫';}  //Central African Republic XAF --- .ui-country*/
+// .ui-flag-XAF::before {content: '';}  //Economic and Monetary Community of Central Africa --- .ui-currency*/
+.ui-flag-TCD::before {content: '🇹🇩';}  //Chad XAF --- .ui-country*/
+// .ui-flag-XAF::before {content: '';}  //Economic and Monetary Community of Central Africa --- .ui-currency*/
+.ui-flag-CHL::before, // {content: '🇨🇱';}  //Chile CLP --- .ui-country*/
+.ui-flag-CLP::before {content: '🇨🇱';}  //Republic of Chile --- .ui-currency*/
+.ui-flag-CHN::before, // {content: '🇨🇳';}  //China CNY --- .ui-country*/
+.ui-flag-CNY::before {content: '🇨🇳';}  //People's Republic of China --- .ui-currency*/
+.ui-flag-CXR::before {content: '🇨🇽';}  //Christmas Island AUD --- .ui-country*/
+// .ui-flag-AUD::before {content: '🇦🇺';}  //Commonwealth of Australia --- .ui-currency*/
+.ui-flag-CCK::before {content: '🇨🇨';}  //Cocos (Keeling) Islands AUD --- .ui-country*/
+// .ui-flag-AUD::before {content: '🇦🇺';}  //Commonwealth of Australia --- .ui-currency*/
+.ui-flag-COL::before, // {content: '🇨🇴';}  //Colombia COP --- .ui-country*/
+.ui-flag-COP::before {content: '🇨🇴';}  //Republic of Colombia --- .ui-currency*/
+.ui-flag-COM::before, // {content: '🇰🇲';}  //Comoros KMF --- .ui-country*/
+.ui-flag-KMF::before {content: '🇰🇲';}  //Union of the Comoros --- .ui-currency*/
+.ui-flag-COD::before, // {content: '🇨🇩';}  //Congo (Dem. Rep.) CDF --- .ui-country*/
+.ui-flag-CDF::before {content: '🇨🇩';}  //Democratic Republic of the Congo --- .ui-currency*/
+.ui-flag-COG::before {content: '🇨🇬';}  //Congo (Rep.) XAF --- .ui-country*/
+// .ui-flag-XAF::before {content: '';}  //Economic and Monetary Community of Central Africa --- .ui-currency*/
+.ui-flag-COK::before {content: '🇨🇰';}  //Cook Islands NZD --- .ui-country*/
+// .ui-flag-NZD::before {content: '🇳🇿';} /*New Zealand --- .ui-currency*/
+.ui-flag-CRI::before, // {content: '🇨🇷';}  //Costa Rica CRC --- .ui-country*/
+.ui-flag-CRC::before {content: '🇨🇷';}  //Republic of Costa Rica --- .ui-currency*/
+.ui-flag-CIV::before {content: '🇨🇮';}  //Cote d'Ivoire XOF --- .ui-country*/
+// .ui-flag-XOF::before {content: '';}  //West African Economic and Monetary Union --- .ui-currency*/
+.ui-flag-HRV::before, // {content: '🇭🇷';}  //Croatia (Hrvatska) HRK --- .ui-country*/
+.ui-flag-HRK::before {content: '🇭🇷';}  //Republic of Croatia --- .ui-currency*/
+.ui-flag-CUB::before, // {content: '🇨🇺';}  //Cuba CUC --- .ui-country*/
+.ui-flag-CUC::before {content: '🇨🇺';}  //Republic of Cuba --- .ui-currency*/
+.ui-flag-CYP::before, // {content: '🇨🇾';}  //Cyprus CYP --- .ui-country*/
+.ui-flag-CYP::before {content: '🇨🇾';}  //Republic of Cyprus --- .ui-currency*/
+.ui-flag-CZE::before, // {content: '🇨🇿';}  //Czech Republic CZK --- .ui-country*/
+.ui-flag-CZK::before {content: '🇨🇿';}  //Czech Republic --- .ui-currency*/
+.ui-flag-DNK::before, // {content: '🇩🇰';}  //Denmark DKK --- .ui-country*/
+.ui-flag-DKK::before {content: '🇩🇰';}  //Kingdom of Denmark --- .ui-currency*/
+.ui-flag-DJI::before, // {content: '🇩🇯';}  //Djibouti DJF --- .ui-country*/
+.ui-flag-DJF::before {content: '🇩🇯';}  //Republic of Djibouti --- .ui-currency*/
+.ui-flag-DMA::before {content: '🇩🇲';}  //Dominica XCD --- .ui-country*/
+// .ui-flag-XCD::before {content: '🇩🇲';}  //Organisation of Eastern Caribbean States --- .ui-currency*/
+.ui-flag-DOM::before, // {content: '🇩🇴';}  //Dominican Republic DOP --- .ui-country*/
+.ui-flag-DOP::before {content: '🇩🇴';}  //Dominican Republic --- .ui-currency*/
+.ui-flag-ECU::before {content: '🇪🇨';}  //Ecuador USD --- .ui-country*/
+// .ui-flag-USD::before {content: '🇺🇸';}  //United States of America --- .ui-currency*/
+.ui-flag-EGY::before, // {content: '🇪🇬';}  //Egypt EGP --- .ui-country*/
+.ui-flag-EGP::before {content: '🇪🇬';}  //Arab Republic of Egypt --- .ui-currency*/
+.ui-flag-SLV::before {content: '🇸🇻';}  //El Salvador USD --- .ui-country*/
+// .ui-flag-USD::before {content: '🇺🇸';}  //United States of America --- .ui-currency*/
+.ui-flag-GNG::before {content: '🇬🇶';}  //Equatorial Guinea XAF --- .ui-country*/
+// .ui-flag-XAF::before {content: '';}  //Economic and Monetary Community of Central Africa --- .ui-currency*/
+.ui-flag-ERI::before, // {content: '🇪🇷';}  //Eritrea ERN --- .ui-country*/
+.ui-flag-ERN::before {content: '🇪🇷';}  //State of Eritrea --- .ui-currency*/
+.ui-flag-EST::before, // {content: '🇪🇪';}  //Estonia EEK --- .ui-country*/
+.ui-flag-EEK::before {content: '🇪🇪';}  //Republic of Estonia --- .ui-currency*/
+.ui-flag-ETH::before {content: '🇪🇹';}  //Ethiopia ETB --- .ui-country*/
+.ui-flag-ETB::before {content: '🇪🇹';}  //Federal Democratic Republic of Ethiopia --- .ui-currency*/
+.ui-flag-FRO::before {content: '🇫🇴';}  //Faroe Islands DKK --- .ui-country*/
+// .ui-flag-DKK::before {content: '🇩🇰';}  //Kingdom of Denmark --- .ui-currency*/
+.ui-flag-FLK::before, // {content: '🇫🇰';}  //Falkland Islands (Malvinas) FKP --- .ui-country*/
+.ui-flag-FKP::before {content: '🇫🇰';}  //Falkland Islands (Malvinas) --- .ui-currency*/
+.ui-flag-FJI::before , //{content: '🇫🇯';}  //Fiji FJD --- .ui-country*/
+.ui-flag-FJD::before {content: '🇫🇯';}  //Republic of the Fiji Islands --- .ui-currency*/
+.ui-flag-FIN::before {content: '🇫🇮';}  //Finland EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  //European Economic Community --- .ui-currency*/
+.ui-flag-FRA::before {content: '🇫🇷';}  //France EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  //European Economic Community --- .ui-currency*/
+.ui-flag-GUF::before {content: '🇬🇫';}  //French Guiana EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  //European Economic Community --- .ui-currency*/
+.ui-flag-PYF::before {content: '🇵🇫';}  //French Polynesia XPF --- .ui-country*/
+// .ui-flag-XPF::before {content: '';}  //Institut d'emission d'outre-mer --- .ui-currency*/
+.ui-flag-ATF::before {content: '🇹🇫';}  //French Southern Territories TAAF EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  //European Economic Community --- .ui-currency*/
+.ui-flag-GAB::before {content: '🇬🇦';}  //Gabon XAF --- .ui-country*/
+// .ui-flag-XAF::before {content: '';}  //Economic and Monetary Community of Central Africa --- .ui-currency*/
+.ui-flag-GMB::before, // {content: '🇬🇲';}  //Gambia GMD --- .ui-country*/
+.ui-flag-GMD::before {content: '🇬🇲';}  //Republic of the Gambia --- .ui-currency*/
+.ui-flag-GEO::before, // {content: '🇬🇪';}  //Georgia GEL --- .ui-country*/
+.ui-flag-GEL::before {content: '🇬🇪';}  //Georgia --- .ui-currency*/
+.ui-flag-DEU::before {content: '🇩🇪';}  //Germany EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  //European Economic Community --- .ui-currency*/
+.ui-flag-GHA::before, // {content: '🇬🇭';}  //Ghana GHC --- .ui-country*/
+.ui-flag-GHC::before {content: '🇬🇭';}  //Republic of Ghana --- .ui-currency*/
+.ui-flag-GIB::before, // {content: '🇬🇮';}  //Gibraltar GIP --- .ui-country*/
+.ui-flag-GIP::before {content: '🇬🇮';}  //Gibraltar --- .ui-currency*/
+.ui-flag-GRC::before {content: '🇬🇷';}  //Greece EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  //European Economic Community --- .ui-currency*/
+.ui-flag-GRL::before {content: '🇬🇱';}  //Greenland DKK --- .ui-country*/
+// .ui-flag-DKK::before {content: '🇩🇰';}  //Kingdom of Denmark --- .ui-currency*/
+.ui-flag-GRD::before {content: '🇬🇩';}  //Grenada XCD --- .ui-country*/
+// .ui-flag-XCD::before {content: '';}  //Organisation of Eastern Caribbean States --- .ui-currency*/
+.ui-flag-GLP::before {content: '🇬🇵';}  //Guadeloupe EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  //European Economic Community --- .ui-currency*/
+.ui-flag-GUM::before {content: '🇬🇺';}  //Guam USD --- .ui-country*/
+// .ui-flag-USD::before {content: '🇺🇸';}  //United States of America --- .ui-currency*/
+.ui-flag-GTM::before, // {content: '🇬🇹';}  //Guatemala GTQ --- .ui-country*/
+.ui-flag-GTQ::before {content: '🇬🇹';}  //Republic of Guatemala --- .ui-currency*/
+.ui-flag-GIN::before, // {content: '🇬🇳';}  //Guinea GNF --- .ui-country*/
+.ui-flag-GNF::before {content: '🇬🇳';}  //Republic of Guinea --- .ui-currency*/
+.ui-flag-GNB::before {content: '🇬🇼';}  //Guinea-Bissau XOF --- .ui-country*/
+// .ui-flag-XOF::before {content: ''-418px }  //West African Economic and Monetary Union --- .ui-currency*/
+.ui-flag-GUY::before, // {content: '🇬🇾';}  //Guyana GYD --- .ui-country*/
+.ui-flag-GYD::before {content: '🇬🇾';}  //Republic of Guyana --- .ui-currency*/
+.ui-flag-HTI::before, // {content: '🇭🇹';}  //Haiti HTG --- .ui-country*/
+.ui-flag-HTG::before {content: '🇭🇹';}  //Republic of Haiti --- .ui-currency*/
+.ui-flag-HND::before, // {content: '🇭🇳';}  //Honduras HNL --- .ui-country*/
+.ui-flag-HNL::before {content: '🇭🇳';}  //Republic of Honduras --- .ui-currency*/
+.ui-flag-HKG::before, // {content: '🇭🇰';}  //Hong Kong HKD --- .ui-country*/
+.ui-flag-HKD::before {content: '🇭🇰';}  //Special Admin. Region of the People's Republic of China --- .ui-currency*/
+.ui-flag-HUN::before, // {content: '🇭🇺';}  //Hungary HUF --- .ui-country*/
+.ui-flag-HUF::before {content: '🇭🇺';}  //Hungarian People's Republic --- .ui-currency*/
+.ui-flag-ISL::before, // {content: '🇮🇸';}  //Iceland ISK --- .ui-country*/
+.ui-flag-ISK::before {content: '🇮🇸';}  //Republic of Iceland --- .ui-currency*/
+.ui-flag-IND::before, // {content: '🇮🇳';}  //India INR --- .ui-country*/
+.ui-flag-INR::before {content: '🇮🇳';}  //Republic of India --- .ui-currency*/
+.ui-flag-IDN::before, // {content: '🇮🇩';}  //Indonesia IDR --- .ui-country*/
+.ui-flag-IDR::before {content: '🇮🇩';}  //Republic of Indonesia --- .ui-currency*/
+.ui-flag-IRN::before, // {content: '🇮🇷';}  //Iran IRR --- .ui-country*/
+.ui-flag-IRR::before {content: '🇮🇷';}  //Islamic Republic of Iran --- .ui-currency*/
+.ui-flag-IRQ::before, // {content: '🇮🇶';}  //Iraq IQD --- .ui-country*/
+.ui-flag-IQD::before {content: '🇮🇶';}  //Republic of Iraq --- .ui-currency*/
+.ui-flag-IRL::before {content: '🇮🇪';}  //Ireland EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  //European Economic Community --- .ui-currency*/
+.ui-flag-IMN::before {content: '🇮🇲';}  //Isle of Man GBP --- .ui-country*/
+// .ui-flag-GBP::before {content: '🇬🇧';}  //United Kingdom of Great Britain & Northern Ireland --- .ui-currency*/
+.ui-flag-ISR::before, // {content: '🇮🇱';}  //Israel ILS --- .ui-country*/
+.ui-flag-ILS::before {content: '🇮🇱';}  //State of Israel --- .ui-currency*/
+.ui-flag-ITA::before {content: '🇮🇹';}  //Italy EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  //European Economic Community --- .ui-currency*/
+.ui-flag-JAM::before, // {content: '🇯🇲';}  //Jamaica JMD --- .ui-country*/
+.ui-flag-JMD::before {content: '🇯🇲';}  //Jamaica --- .ui-currency*/
+.ui-flag-JPN::before, // {content: '🇯🇵';}  //Japan JPY --- .ui-country*/
+.ui-flag-JPY::before {content: '🇯🇵';}  //Japan --- .ui-currency*/
+.ui-flag-JEY::before {content: '🇯🇪';}  //Jersey GBP --- .ui-country*/
+// .ui-flag-GBP::before {content: '🇬🇧';}  //United Kingdom of Great Britain & Northern Ireland --- .ui-currency*/
+.ui-flag-JOR::before, // {content: '🇯🇴';}  //Jordan JOD --- .ui-country*/
+.ui-flag-JOD::before {content: '🇯🇴';}  //Hashemite Kingdom of Jordan --- .ui-currency*/
+.ui-flag-KAZ::before, // {content: '🇰🇿';}  //Kazakhstan KZT --- .ui-country*/
+.ui-flag-KZT::before {content: '🇰🇿';}  //Republic of Kazakhstan --- .ui-currency*/
+.ui-flag-KEN::before, // {content: '🇰🇪';}  //Kenya KES --- .ui-country*/
+.ui-flag-KES::before {content: '🇰🇪';}  //Republic of Kenya --- .ui-currency*/
+.ui-flag-KIR::before {content: '🇰🇮';}  //Kiribati AUD --- .ui-country*/
+// .ui-flag-AUD::before {content: '🇦🇺';}  //Commonwealth of Australia --- .ui-currency*/
+.ui-flag-PRK::before, // {content: '🇰🇵';}  //Korea, North KPW --- .ui-country*/
+.ui-flag-KPW::before {content: '🇰🇵';}  //Democratic People's Republic of Korea --- .ui-currency*/
+.ui-flag-KOR::before, // {content: '🇰🇷';}  //Korea, South KRW --- .ui-country*/
+.ui-flag-KRW::before {content: '🇰🇷';}  //Republic of Korea --- .ui-currency*/
+.ui-flag-KWT::before, // {content: '🇰🇼';}  //Kuwait KWD --- .ui-country*/
+.ui-flag-KWD::before {content: '🇰🇼';}  //State of Kuwait --- .ui-currency*/
+.ui-flag-KGZ::before, // {content: '🇰🇬';}  //Kyrgyzstan KGS --- .ui-country*/
+.ui-flag-KGS::before {content: '🇰🇬';}  //Kyrgyz Republic --- .ui-currency*/
+.ui-flag-LAO::before, // {content: '🇱🇦';}  //Laos LAK --- .ui-country*/
+.ui-flag-LAK::before {content: '🇱🇦';}  //Lao People's Democratic Republic --- .ui-currency*/
+.ui-flag-LVA::before, // {content: '🇱🇻';}  //Latvia LVL --- .ui-country*/
+.ui-flag-LVL::before {content: '🇱🇻';}  //Republic of Latvia --- .ui-currency*/
+.ui-flag-LBN::before, // {content: '🇱🇧';}  //Lebanon LBP --- .ui-country*/
+.ui-flag-LBP::before {content: '🇱🇧';}  //Lebanese Republic --- .ui-currency*/
+.ui-flag-LSO::before, // {content: '🇱🇸';}  //Lesotho LSL --- .ui-country*/
+.ui-flag-LSL::before {content: '🇱🇸';}  //Kingdom of Lesotho --- .ui-currency*/
+.ui-flag-LBR::before, // {content: '🇱🇷';}  //Liberia LRD --- .ui-country*/
+.ui-flag-LRD::before {content: '🇱🇷';}  //Republic of Liberia --- .ui-currency*/
+.ui-flag-LBY::before, // {content: '🇱🇾';}  //Libya LYD --- .ui-country*/
+.ui-flag-LYD::before {content: '🇱🇾';}  //Socialist People's Libyan Arab Jamahiriya --- .ui-currency*/
+.ui-flag-LIE::before {content: '🇱🇮';}  //Liechtenstein CHF --- .ui-country*/
+// .ui-flag-CHF::before {content: '🇨🇭';}. /*Swiss Confederation --- .ui-currency*/
+.ui-flag-LTU::before, // {content: '🇱🇹';}  //Lithuania LTL --- .ui-country*/
+.ui-flag-LTL::before {content: '🇱🇹';}  //Republic of Lithuania --- .ui-currency*/
+.ui-flag-LUX::before {content: '🇱🇺';}  //Luxembourg EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  //European Economic Community --- .ui-currency*/
+.ui-flag-MAC::before, // {content: '🇲🇴';}  //Macau MOP --- .ui-country*/
+.ui-flag-MOP::before {content: '🇲🇴';}  //Special Admin. Region of the People's Republic of China --- .ui-currency*/
+.ui-flag-MKD::before, // {content: '🇲🇰';}  //Macedonia MKD --- .ui-country*/
+.ui-flag-MKD::before {content: '🇲🇰';}  //Republic of Macedonia --- .ui-currency*/
+.ui-flag-MDG::before, // {content: '🇲🇬';}  //Madagascar MGA --- .ui-country*/
+.ui-flag-MGA::before {content: '🇲🇬';}  //Republic of Madagascar --- .ui-currency*/
+.ui-flag-MWI::before, // {content: '🇲🇼';}  //Malawi MWK --- .ui-country*/
+.ui-flag-MWK::before {content: '🇲🇼';}  //Republic of Malawi --- .ui-currency*/
+.ui-flag-MYS::before, // {content: '🇲🇾';}  //Malaysia MYR --- .ui-country*/
+.ui-flag-MYR::before {content: '🇲🇾';}  //Malaysia --- .ui-currency*/
+.ui-flag-MDV::before, // {content: '🇲🇻';}  //Maldives MVR --- .ui-country*/
+.ui-flag-MVR::before {content: '🇲🇻';}  //Republic of Maldives --- .ui-currency*/
+.ui-flag-MLI::before {content: '🇲🇱';}  //Mali XOF --- .ui-country*/
+// .ui-flag-XOF::before {content: ''-418px }  //West African Economic and Monetary Union --- .ui-currency*/
+.ui-flag-MLT::before, // {content: '🇲🇹';}  //Malta MTL --- .ui-country*/
+.ui-flag-MTL::before {content: '🇲🇹';}  //Republic of Malta --- .ui-currency*/
+.ui-flag-MHL::before {content: '🇲🇭';}  //Marshall Islands USD --- .ui-country*/
+// .ui-flag-USD::before {content: '🇺🇸';}  //United States of America --- .ui-currency*/
+.ui-flag-MTQ::before {content: '🇲🇶';}  //Martinique EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  //European Economic Community --- .ui-currency*/
+.ui-flag-MRT::before, // {content: '🇲🇷';}  //Mauritania MRO --- .ui-country*/
+.ui-flag-MRO::before {content: '🇲🇷';}  //Islamic Republic of Mauritania --- .ui-currency*/
+.ui-flag-MUS::before, // {content: '🇲🇺';}  //Mauritius MUR --- .ui-country*/
+.ui-flag-MUR::before {content: '🇲🇺';}  //Republic of Mauritius --- .ui-currency*/
+.ui-flag-MYT::before {content: '🇾🇹';}  //Mayotte EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  //European Economic Community --- .ui-currency*/
+.ui-flag-MEX::before, // {content: '🇲🇽';}  //Mexico MXN --- .ui-country*/
+.ui-flag-MXN::before {content: '🇲🇽';}  //United Mexican States --- .ui-currency*/
+.ui-flag-FSM::before {content: '🇫🇲';}  //Micronesia USD --- .ui-country*/
+// .ui-flag-USD::before {content: '🇺🇸';}  //United States of America --- .ui-currency*/
+.ui-flag-MDA::before, // {content: '🇲🇩';}  //Moldova MDL --- .ui-country*/
+.ui-flag-MDL::before {content: '🇲🇩';}  //Republic of Moldova --- .ui-currency*/
+.ui-flag-MCO::before {content: '🇲🇨';}  //Monaco EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  //European Economic Community --- .ui-currency*/
+.ui-flag-MNG::before, // {content: '🇲🇳';}  //Mongolia MNT --- .ui-country*/
+.ui-flag-MNT::before {content: '🇲🇳';}  //Mongolian People's Republic --- .ui-currency*/
+.ui-flag-MNE::before {content: '🇲🇪';}  //Montenegro EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  //European Economic Community --- .ui-currency*/
+.ui-flag-MSR::before {content: '🇲🇸';}  //Montserrat XCD --- .ui-country*/
+// .ui-flag-XCD::before {content: '';}  //Organisation of Eastern Caribbean States --- .ui-currency*/
+.ui-flag-MAR::before, // {content: '🇲🇦';}  //Morocco MAD --- .ui-country*/
+.ui-flag-MAD::before {content: '🇲🇦';}  //Kingdom of Morocco --- .ui-currency*/
+.ui-flag-MOZ::before, // {content: '🇲🇿';}  //Mozambique MZN --- .ui-country*/
+.ui-flag-MZN::before {content: '🇲🇿';}  //People's Republic of Mozambique --- .ui-currency*/
+.ui-flag-MMR::before, // {content: '🇲🇲';}  //Myanmar (Burma) MMK --- .ui-country*/
+.ui-flag-MMK::before {content: '🇲🇲';}  //Union of Myanmar --- .ui-currency*/
+.ui-flag-NAM::before, // {content: '🇳🇦';}  //Namibia NAD --- .ui-country*/
+.ui-flag-NAD::before {content: '🇳🇦';}  //Republic of Namibia --- .ui-currency*/
+.ui-flag-NRU::before {content: '🇳🇷';}  //Nauru AUD --- .ui-country*/
+// .ui-flag-AUD::before {content: '🇦🇺';}  //Commonwealth of Australia --- .ui-currency*/
+.ui-flag-NPL::before, // {content: '🇳🇵';}  //Nepal NPR --- .ui-country*/
+.ui-flag-NPR::before {content: '🇳🇵';}  //Kingdom of Nepal --- .ui-currency*/
+.ui-flag-NLD::before {content: '🇳🇱';}  //Netherlands EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  //European Economic Community --- .ui-currency*/
+.ui-flag-ANT::before, // {content: '🇧🇶';}  //Netherlands Antilles ANG --- .ui-country*/
+.ui-flag-ANG::before {content: '🇧🇶';}  //Netherlands Antilles --- .ui-currency*/
+.ui-flag-NCL::before {content: '🇳🇨';}  //New Caledonia XPF --- .ui-country*/
+// .ui-flag-XPF::before {content: '';}  //Institut d'emission d'outre-mer --- .ui-currency*/
+.ui-flag-NZL::before, // {content: '🇳🇿';}  //New Zealand NZD --- .ui-country*/
+.ui-flag-NZD::before {content: '🇳🇿';}  //New Zealand --- .ui-currency*/
+.ui-flag-NIC::before, // {content: '🇳🇮';}  //Nicaragua NIO --- .ui-country*/
+.ui-flag-NIO::before {content: '🇳🇮';}  //Republic of Nicaragua --- .ui-currency*/
+.ui-flag-NER::before {content: '🇳🇪';}  //Niger XOF --- .ui-country*/
+// .ui-flag-XOF::before {content: ''-418px }  //West African Economic and Monetary Union --- .ui-currency*/
+.ui-flag-NGA::before, // {content: '🇳🇬';}  //Nigeria NGN --- .ui-country*/
+.ui-flag-NGN::before {content: '🇳🇬';}  //Federal Republic of Nigeria --- .ui-currency*/
+.ui-flag-NIU::before {content: '🇳🇺';}  //Niue NZD --- .ui-country*/
+// .ui-flag-NZD::before {content: '🇳🇿';}  //New Zealand --- .ui-currency*/
+.ui-flag-NFK::before {content: '🇳🇫';}  //Norfolk Island AUD --- .ui-country*/
+// .ui-flag-AUD::before {content: '🇦🇺';}  //Commonwealth of Australia --- .ui-currency*/
+.ui-flag-MNP::before {content: '🇲🇵';}  //Northern Mariana Islands USD --- .ui-country*/
+// .ui-flag-USD::before {content: '🇺🇸';}  //United States of America --- .ui-currency*/
+.ui-flag-NOR::before, // {content: '🇳🇴';}  //Norway NOK --- .ui-country*/
+.ui-flag-NOK::before {content: '🇳🇴';}  //Kingdom of Norway --- .ui-currency*/
+.ui-flag-OMN::before, // {content: '🇴🇲';}  //Oman OMR --- .ui-country*/
+.ui-flag-OMR::before {content: '🇴🇲';}  //Sultanate of Oman --- .ui-currency*/
+.ui-flag-PAK::before, // {content: '🇵🇰';}  //Pakistan PKR --- .ui-country*/
+.ui-flag-PKR::before {content: '🇵🇰';}  //Islamic Republic of Pakistan --- .ui-currency*/
+.ui-flag-PLW::before {content: '🇵🇼';}  //Palau USD --- .ui-country*/
+// .ui-flag-USD::before {content: '🇺🇸';}  //United States of America --- .ui-currency*/
+.ui-flag-PSE::before, // {content: '🇵🇸';}  //Palestine JOD --- .ui-country*/
+.ui-flag-JOD::before {content: '🇵🇸';}  //Hashemite Kingdom of Jordan --- .ui-currency*/
+.ui-flag-PAN::before, // {content: '🇵🇦';}  //Panama PAB --- .ui-country*/
+.ui-flag-PAB::before {content: '🇵🇦';}  //Republic of Panama --- .ui-currency*/
+.ui-flag-PNG::before, // {content: '🇵🇬';}  //Papua New Guinea PGK --- .ui-country*/
+.ui-flag-PGK::before {content: '🇵🇬';}  //The Independent State of Papua New Guinea --- .ui-currency*/
+.ui-flag-PRY::before, // {content: '🇵🇾';}  //Paraguay PYG --- .ui-country*/
+.ui-flag-PYG::before {content: '🇵🇾';}  //Republic of, Paraguay --- .ui-currency*/
+.ui-flag-PER::before, // {content: '🇵🇪';}  //Peru PEN --- .ui-country*/
+.ui-flag-PEN::before {content: '🇵🇪';}  //Republic of Peru --- .ui-currency*/
+.ui-flag-PHL::before, // {content: '🇵🇭';}  //Philippines PHP --- .ui-country*/
+.ui-flag-PHP::before {content: '🇵🇭';}  //Republic of the Philippines --- .ui-currency*/
+.ui-flag-PCN::before {content: '🇵🇳';}  //Pitcairn Islands NZD --- .ui-country*/
+// .ui-flag-NZD::before {content: '🇳🇿'-396px}  /*New Zealand --- .ui-currency*/
+.ui-flag-POL::before, // {content: '🇵🇱';}  //Poland PLN --- .ui-country*/
+.ui-flag-PLN::before {content: '🇵🇱';}  //Polish People's Republic --- .ui-currency*/
+.ui-flag-PRT::before {content: '🇵🇹';}  //Portugal EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  //European Economic Community --- .ui-currency*/
+.ui-flag-PRI::before {content: '🇵🇷';}  //Puerto Rico USD --- .ui-country*/
+// .ui-flag-USD::before {content: '🇺🇸';}  //United States of America --- .ui-currency*/
+.ui-flag-QAT::before, // {content: '🇶🇦';}  //Qatar QAR --- .ui-country*/
+.ui-flag-QAR::before {content: '🇶🇦';}  //State of Qatar --- .ui-currency*/
+.ui-flag-REU::before {content: '🇷🇪';}  //Reunion EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  //European Economic Community --- .ui-currency*/
+.ui-flag-ROU::before, // {content: '🇷🇴';}  //Romania RON --- .ui-country*/
+.ui-flag-RON::before {content: '🇷🇴';}  //People's Republic of Romania --- .ui-currency*/
+.ui-flag-RUS::before, // {content: '🇷🇺';}  //Russia RUB --- .ui-country*/
+.ui-flag-RUB::before {content: '🇷🇺';}  //Russian Federation --- .ui-currency*/
+.ui-flag-RWA::before, // {content: '🇷🇼';}  //Rwanda RWF --- .ui-country*/
+.ui-flag-RWF::before {content: '🇷🇼';}  //Rwandese Republic --- .ui-currency*/
+.ui-flag-SHN::before, // {content: '🇸🇭';}  //St Helena SHP --- .ui-country*/
+.ui-flag-SHP::before {content: '🇸🇭';}  //Saint Helena --- .ui-currency*/
+.ui-flag-KNA::before {content: '🇰🇳';}  //St Kitts & Nevis XCD --- .ui-country*/
+// .ui-flag-XCD::before {content: '';}  //Organisation of Eastern Caribbean States --- .ui-currency*/
+.ui-flag-LCA::before {content: '🇱🇨';}  //St Lucia XCD --- .ui-country*/
+// .ui-flag-XCD::before {content: '';}  //Organisation of Eastern Caribbean States --- .ui-currency*/
+.ui-flag-SPM::before {content: '🇵🇲';}  //St Pierre & Miquelon EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  //European Economic Community --- .ui-currency*/
+.ui-flag-VCT::before {content: '🇻🇨';}  //St Vincent & Grenadines XCD --- .ui-country*/
+// .ui-flag-XCD::before {content: '';}  //Organisation of Eastern Caribbean States --- .ui-currency*/
+.ui-flag-WSM::before, // {content: '🇼🇸';}  //Samoa WST --- .ui-country*/
+.ui-flag-WST::before {content: '🇼🇸';}  //Independent State of Samoa --- .ui-currency*/
+.ui-flag-ASM::before {content: '🇦🇸';}  //Samoa (American) USD --- .ui-country*/
+// .ui-flag-USD::before {content: '🇺🇸';}  //United States of America --- .ui-currency*/
+.ui-flag-SMR::before {content: '🇸🇲';}  //San Marino EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  //European Economic Community --- .ui-currency*/
+.ui-flag-STP::before, // {content: '🇸🇹';}  //Sao Tome & Principe STD --- .ui-country*/
+.ui-flag-STD::before {content: '🇸🇹';}  //Democratic Republic of Sao Tome and Principe --- .ui-currency*/
+.ui-flag-SAU::before, // {content: '🇸🇦';}  //Saudi Arabia SAR --- .ui-country*/
+.ui-flag-SAR::before {content: '🇸🇦';}  //Kingdom of Saudi Arabia --- .ui-currency*/
+.ui-flag-SEN::before {content: '🇸🇳';}  //Senegal XOF --- .ui-country*/
+// .ui-flag-XOF::before {content: ''-418px }  //West African Economic and Monetary Union --- .ui-currency*/
+.ui-flag-SCG::before, // {content: '🇷🇸';}  //Serbia RSD --- .ui-country*/
+.ui-flag-RSD::before {content: '🇷🇸';}  //Republic of Serbia --- .ui-currency*/
+.ui-flag-SYC::before, // {content: '🇸🇨';}  //Seychelles SCR --- .ui-country*/
+.ui-flag-SCR::before {content: '🇸🇨';}  //Republic of Seychelles --- .ui-currency*/
+.ui-flag-SLE::before, // {content: '🇸🇱';}  //Sierra Leone SLL --- .ui-country*/
+.ui-flag-SLL::before {content: '🇸🇱';}  //Republic of Sierra Leone --- .ui-currency*/
+.ui-flag-SGP::before, // {content: '🇸🇬';}  //Singapore SGD --- .ui-country*/
+.ui-flag-SGD::before {content: '🇸🇬';}  //Republic of Singapore --- .ui-currency*/
+.ui-flag-SVK::before, // {content: '🇸🇰';}  //Slovakia SKK --- .ui-country*/
+.ui-flag-SKK::before {content: '🇸🇰';}  //Slovak Republic --- .ui-currency*/
+.ui-flag-SVN::before {content: '🇸🇮';}  //Slovenia EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  //European Economic Community --- .ui-currency*/
+.ui-flag-SLB::before, // {content: '🇸🇧';}  //Solomon Islands SBD --- .ui-country*/
+.ui-flag-SBD::before {content: '🇸🇧';}  //Solomon Islands --- .ui-currency*/
+.ui-flag-SOM::before, // {content: '🇸🇴';}  //Somalia SOS --- .ui-country*/
+.ui-flag-SOS::before {content: '🇸🇴';}  //Somali Republic --- .ui-currency*/
+.ui-flag-ZAF::before, // {content: '🇿🇦';}  //South Africa ZAR --- .ui-country*/
+.ui-flag-ZAR::before {content: '🇿🇦';}  //Republic of South Africa --- .ui-currency*/
+.ui-flag-SGS::before {content: '🇬🇸';}  //South Georgia Islands GBP --- .ui-country*/
+// .ui-flag-GBP::before {content: '🇬🇧';}  //United Kingdom of Great Britain & Northern Ireland --- .ui-currency*/
+.ui-flag-ESP::before {content: '🇪🇸';}  //Spain EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}.  /*European Economic Community --- .ui-currency*/
+.ui-flag-LKA::before, // {content: '🇱🇰';}  //Sri Lanka LKR --- .ui-country*/
+.ui-flag-LKR::before {content: '🇱🇰';}  //Democratic Socialist Republic of Sri Lanka --- .ui-currency*/
+.ui-flag-SDN::before, // {content: '🇸🇩';}  //Sudan SDD --- .ui-country*/
+.ui-flag-SDD::before {content: '🇸🇩';}  //Democratic Republic of the Sudan --- .ui-currency*/
+.ui-flag-SUR::before, // {content: '🇸🇷';}  //Suriname SRD --- .ui-country*/
+.ui-flag-SRD::before {content: '🇸🇷';}  //Republic of Suriname --- .ui-currency*/
+.ui-flag-SJM::before, // {content: '🇳🇴';}  //Svalbard & Jan Mayen NOK --- .ui-country*/
+.ui-flag-NOK::before {content: '🇳🇴';}  //Kingdom of Norway --- .ui-currency*/
+.ui-flag-SWZ::before, // {content: '🇸🇿';}  //Swaziland SZL --- .ui-country*/
+.ui-flag-SZL::before {content: '🇸🇿';}  //Kingdom of Swaziland --- .ui-currency*/
+.ui-flag-SWE::before, // {content: '🇸🇪';}  //Sweden SEK --- .ui-country*/
+.ui-flag-SEK::before {content: '🇸🇪';}  //Kingdom of Sweden --- .ui-currency*/
+.ui-flag-CHE::before, // {content: '🇨🇭';}  //Switzerland CHF --- .ui-country*/
+.ui-flag-CHF::before {content: '🇨🇭';}  //Swiss Confederation --- .ui-currency*/
+.ui-flag-SYR::before, // {content: '🇸🇾';}  //Syria SYP --- .ui-country*/
+.ui-flag-SYP::before {content: '🇸🇾';}  //Syrian Arab Republic --- .ui-currency*/
+.ui-flag-TWN::before, // {content: '🇹🇼';}  //Taiwan TWD --- .ui-country*/
+.ui-flag-TWD::before {content: '🇹🇼';}  //Republic of China --- .ui-currency*/
+.ui-flag-TJK::before, // {content: '🇹🇯';}  //Tajikistan TJS --- .ui-country*/
+.ui-flag-TJS::before {content: '🇹🇯';}  //Republic of Tajikistan --- .ui-currency*/
+.ui-flag-TZA::before, // {content: '🇹🇿';}  //Tanzania TZS --- .ui-country*/
+.ui-flag-TZS::before {content: '🇹🇿';}  //United Republic of Tanzania --- .ui-currency*/
+.ui-flag-THA::before, // {content: '🇹🇭';}  //Thailand THB --- .ui-country*/
+.ui-flag-THB::before {content: '🇹🇭';}  //Kingdom of Thailand --- .ui-currency*/
+.ui-flag-TLS::before {content: '🇹🇱';}  //Timor-Leste USD --- .ui-country*/
+// .ui-flag-USD::before {content: '🇺🇸';}  //United States of America --- .ui-currency*/
+.ui-flag-TGO::before {content: '🇹🇬';}  //Togo XOF --- .ui-country*/
+// .ui-flag-XOF::before {content: ''-418px }.  /*West African Economic and Monetary Union --- .ui-currency*/
+.ui-flag-TKL::before {content: '🇹🇰';}  //Tokelau NZD --- .ui-country*/
+// .ui-flag-NZD::before {content: '🇳🇿';}  //New Zealand --- .ui-currency*/
+.ui-flag-TON::before, // {content: '🇹🇴';}  //Tonga TOP --- .ui-country*/
+.ui-flag-TOP::before {content: '🇹🇴';}  //Kingdom of Tonga --- .ui-currency*/
+.ui-flag-TTO::before, // {content: '🇹🇹';}  //Trinidad & Tobago TTD --- .ui-country*/
+.ui-flag-TTD::before {content: '🇹🇹';}  //Republic of Trinidad and Tobago --- .ui-currency*/
+.ui-flag-TUN::before, // {content: '🇹🇳';}  //Tunisia TND --- .ui-country*/
+.ui-flag-TND::before {content: '🇹🇳';}  //Republic of Tunisia --- .ui-currency*/
+.ui-flag-TUR::before, // {content: '🇹🇷';}  //Turkey TRY --- .ui-country*/
+.ui-flag-TRY::before {content: '🇹🇷';}  //Republic of Turkey --- .ui-currency*/
+.ui-flag-TKM::before, // {content: '🇹🇲';}  //Turkmenistan TMM --- .ui-country*/
+.ui-flag-TMM::before {content: '🇹🇲';}  //Turkmenistan --- .ui-currency*/
+.ui-flag-TCA::before {content: '🇹🇨';}  //Turks & Caicos Islands USD --- .ui-country*/
+// .ui-flag-USD::before {content: '🇺🇸';}  //United States of America --- .ui-currency*/
+.ui-flag-TUV::before {content: '🇹🇻';}  //Tuvalu AUD --- .ui-country*/
+// .ui-flag-AUD::before {content: '🇦🇺';}  //Commonwealth of Australia --- .ui-currency*/
+.ui-flag-UGA::before, // {content: '🇺🇬';}  //Uganda UGX --- .ui-country*/
+.ui-flag-UGX::before {content: '🇺🇬';}  //Republic of Uganda --- .ui-currency*/
+.ui-flag-UKR::before, // {content: '🇺🇦';}  //Ukraine UAH --- .ui-country*/
+.ui-flag-UAH::before {content: '🇺🇦';}  //Ukraine --- .ui-currency*/
+.ui-flag-ARE::before, // {content: '🇦🇪';}  //United Arab Emirates AED --- .ui-country*/
+.ui-flag-AED::before {content: '🇦🇪';}  //United Arab Emirates --- .ui-currency*/
+.ui-flag-GBR::before, // {content: '🇬🇧';}  //UK GBP --- .ui-country*/
+.ui-flag-GBP::before {content: '🇬🇧';}  //United Kingdom of Great Britain & Northern Ireland --- .ui-currency*/
+.ui-flag-USA::before, // {content: '🇺🇸';}  //USA USD --- .ui-country*/
+.ui-flag-USD::before {content: '🇺🇸';}  //United States of America --- .ui-currency*/
+.ui-flag-URY::before, // {content: '🇺🇾';}  //Uruguay UYU --- .ui-country*/
+.ui-flag-URU::before {content: '🇺🇾';}  //Eastern Republic of Uruguay --- .ui-currency*/
+.ui-flag-UZB::before, // {content: '🇺🇿';}  //Uzbekistan UZS --- .ui-country*/
+.ui-flag-UZS::before {content: '🇺🇿';}  //Republic of Uzbekistan --- .ui-currency*/
+.ui-flag-VUT::before, // {content: '🇻🇺';}  //Vanuatu VUV --- .ui-country*/
+.ui-flag-VUV::before {content: '🇻🇺';}  //Republic of Vanuatu --- .ui-currency*/
+.ui-flag-VAT::before {content: '🇻🇦';}  //Vatican City EUR --- .ui-country*/
+// .ui-flag-EUR::before {content: '🇪🇺';}  //European Economic Community --- .ui-currency*/
+.ui-flag-VEN::before, // {content: '🇻🇪';}  //Venezuela VEB --- .ui-country*/
+.ui-flag-VEB::before {content: '🇻🇪';}  //Bolivarian Republic of Venezuela --- .ui-currency*/
+.ui-flag-VNM::before, // {content: '🇻🇳';}  //Vietnam VND --- .ui-country*/
+.ui-flag-VND::before {content: '🇻🇳';}  //Socialist Republic of Vietnam --- .ui-currency*/
+.ui-flag-VGB::before {content: '🇻🇬';}  //Virgin Islands, British USD --- .ui-country*/
+// .ui-flag-USD::before {content: '🇺🇸';}  //United States of America --- .ui-currency*/
+.ui-flag-VIR::before {content: '🇻🇮';}  //Virgin Islands, United States USD --- .ui-country*/
+// .ui-flag-USD::before {content: '🇺🇸';}  //United States of America --- .ui-currency*/
+.ui-flag-WLF::before {content: '🇼🇫';}  //Wallis & Futuna XPF --- .ui-country*/
+// .ui-flag-XPF::before {content: '';}  //Institut d'emission d'outre-mer --- .ui-currency*/
+.ui-flag-YEM::before, // {content: '🇾🇪';}  //Yemen YER --- .ui-country*/
+.ui-flag-YER::before {content: '🇾🇪';}  //Republic of Yemen --- .ui-currency*/
+.ui-flag-ZMB::before, // {content: '🇿🇲';}  //Zambia ZMK --- .ui-country*/
+.ui-flag-ZMK::before {content: '🇿🇲';}  //Republic of Zambia --- .ui-currency*/
+.ui-flag-ZWE::before, // {content: '🇿🇼';}  //Zimbabwe ZWD --- .ui-country*/
+.ui-flag-ZWD::before {content: '🇿🇼';}  //Republic of Zimbabwe --- .ui-currency*/

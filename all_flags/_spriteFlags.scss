@@ -1,0 +1,494 @@
+﻿@charset "UTF-8";
+
+/*!
+ * _spriteFlags.scss 
+ * Version - 1.0.0
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2018 Ritesh Makan
+ */
+
+[class^="ui-flag-"]:before, 
+[class*=" ui-flag-"]:before {
+    background-image: url(flagsGlossed32x20.png);
+    width: 22px;
+    height: 14px;
+    background-size: 484px 154px; 
+    background-position: -418px -112px;
+    display: inline-block;
+}
+.ui-flag-AFG::before,  // {background-position: -0px -0px;} // Afghanistan AFN --- .ui-country
+.ui-flag-AFN::before {background-position: -0px -0px;} // Islamic Republic of Afghanistan --- .ui-currency
+.ui-flag-ALA::before {background-position: -22px -0px;} // Aland Islands EUR --- .ui-country
+.ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-ALB::before,  // {background-position: -44px -0px;} // Albania ALL --- .ui-country
+.ui-flag-ALL::before {background-position: -44px -0px;} // People's Socialist Republic of Albania --- .ui-currency
+.ui-flag-DZA::before,  // {background-position: -66px -0px;} // Algeria DZD --- .ui-country
+.ui-flag-DZD::before {background-position: -66px -0px;} // People's Democratic Republic of Algeria --- .ui-currency
+.ui-flag-AND::before {background-position: -88px -0px;} // Andorra EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-AGO::before,  // {background-position: -110px -0px;} // Angola AOA --- .ui-country
+.ui-flag-AOA::before {background-position: -110px -0px;} // Republic of Angola --- .ui-currency
+.ui-flag-AIA::before {background-position: -132px -0px;} // Anguilla XCD --- .ui-country
+.ui-flag-XCD::before {background-position: -374px -140px;} // Organisation of Eastern Caribbean States --- .ui-currency
+.ui-flag-ATG::before {background-position: -154px -0px;} // Antigua & Barbuda XCD --- .ui-country
+// .ui-flag-XCD::before {background-position: -374px -140px;} // Organisation of Eastern Caribbean States --- .ui-currency
+.ui-flag-ARG::before, // {background-position: -110px -0px;} // Argentina ARS --- .ui-country
+.ui-flag-ARS::before {background-position: -110px -0px;} // Argentine Republic --- .ui-currency
+.ui-flag-ARM::before, // {background-position: -198px -0px;} // Armenia AMD --- .ui-country
+.ui-flag-AMD::before {background-position: -198px -0px;} // Republic of Armenia --- .ui-currency
+.ui-flag-ABW::before, // {background-position: -220px -0px;} // Aruba AWG --- .ui-country
+.ui-flag-AWG::before {background-position: -220px -0px;} // Aruba --- .ui-currency
+.ui-flag-AUS::before,
+.ui-flag-AUD::before {background-position: -242px -0px;} // Australia AUD --- .ui-country
+// .ui-flag-AUD::before {background-position: -242px -0px;} // Commonwealth of Australia --- .ui-currency
+.ui-flag-AUT::before {background-position: -264px -0px;} // Austria EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-AZE::before, // {background-position: -286px -0px;} // Azerbaijan AZN --- .ui-country
+.ui-flag-AZN::before {background-position: -286px -0px;} // Republic of Azerbaijan --- .ui-currency
+.ui-flag-BHS::before, // {background-position: -308px -0px;} // Bahamas BSD --- .ui-country
+.ui-flag-BSD::before {background-position: -308px -0px;} // Commonwealth of the Bahamas --- .ui-currency
+.ui-flag-BHR::before, // {background-position: -330px -0px;} // Bahrain BHD --- .ui-country
+.ui-flag-BHD::before {background-position: -330px -0px;} // Kingdom of  Bahrain --- .ui-currency
+.ui-flag-BGD::before, // {background-position: -352px -0px;} // Bangladesh BDT --- .ui-country
+.ui-flag-BDT::before {background-position: -352px -0px;} // People's Republic of Bangladesh --- .ui-currency
+.ui-flag-BRB::before, // {background-position: -374px -0px;} // Barbados BBD --- .ui-country
+.ui-flag-BBD::before {background-position: -374px -0px;} // Barbados --- .ui-currency
+.ui-flag-BLR::before, // {background-position: -396px -0px;} // Belarus BYR --- .ui-country
+.ui-flag-BYR::before {background-position: -396px -0px;} // Republic of Belarus --- .ui-currency
+.ui-flag-BEL::before {background-position: -418px -0px;} // Belgium EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-BLZ::before, // {background-position: -440px -0px;} // Belize BZD --- .ui-country
+.ui-flag-BZD::before {background-position: -440px -0px;} // Belize --- .ui-currency
+.ui-flag-BEN::before {background-position: -462px -0px;} // Benin XOF --- .ui-country
+.ui-flag-XOF::before {background-position: -418px -140px;} // West African Economic and Monetary Union --- .ui-currency
+.ui-flag-BMU::before, // {background-position: -0px -14px;} // Bermuda BMD --- .ui-country
+.ui-flag-BMD::before {background-position: -0px -14px;} // Bermuda --- .ui-currency
+.ui-flag-BTN::before, // {background-position: -22px -14px;} // Bhutan BTN --- .ui-country
+.ui-flag-BTN::before {background-position: -22px -14px;} // Kingdom of Bhutan --- .ui-currency
+.ui-flag-BOL::before, // {background-position: -44px -14px;} // Bolivia BOB --- .ui-country
+.ui-flag-BOB::before {background-position: -44px -14px;} // Republic of Bolivia --- .ui-currency
+.ui-flag-BIH::before, // {background-position: -66px -14px;} // Bosnia & Herzegovina BAM --- .ui-country
+.ui-flag-BAM::before {background-position: -66px -14px;} // Bosnia and Herzegovina --- .ui-currency
+.ui-flag-BWA::before, // {background-position: -88px -14px;} // Botswana BWP --- .ui-country
+.ui-flag-BWP::before {background-position: -88px -14px;} // Republic of Botswana --- .ui-currency
+.ui-flag-BRA::before, // {background-position: -110px -14px;} // Brazil BRL --- .ui-country
+.ui-flag-BRL::before {background-position: -110px -14px;} // Federative Republic of Brazil --- .ui-currency
+.ui-flag-BRN::before, // {background-position: -132px -14px;} // Brunei BND --- .ui-country
+.ui-flag-BND::before {background-position: -132px -14px;} // State of Brunei Darussalam --- .ui-currency
+.ui-flag-BGR::before, // {background-position: -154px -14px;} // Bulgaria BGN --- .ui-country
+.ui-flag-BGN::before {background-position: -154px -14px;} // People's Republic of Bulgaria --- .ui-currency
+.ui-flag-BFA::before {background-position: -176px -14px;} // Burkina Faso XOF --- .ui-country
+// .ui-flag-XOF::before {background-position: -418px  -140px;} // West African Economic and Monetary Union --- .ui-currency
+.ui-flag-BDI::before, // {background-position: -198px -14px;} // Burundi BIF --- .ui-country
+.ui-flag-BIF::before {background-position: -198px -14px;} // Republic of Burundi --- .ui-currency
+.ui-flag-KHM::before, // {background-position: -220px -14px;} // Cambodia KHR --- .ui-country
+.ui-flag-KHR::before {background-position: -220px -14px;} // Kingdom of Cambodia --- .ui-currency
+.ui-flag-CMR::before {background-position: -242px -14px;} // Cameroon XAF --- .ui-country
+.ui-flag-XAF::before {background-position: -440px -140px;} // Economic and Monetary Community of Central Africa --- .ui-currency
+.ui-flag-CAN::before, // {background-position: -264px -14px;} // Canada CAD --- .ui-country
+.ui-flag-CAD::before {background-position: -264px -14px;} // Canada --- .ui-currency
+.ui-flag-CPV::before, // {background-position: -286px -14px;} // Cape Verde CVE --- .ui-country
+.ui-flag-CVE::before {background-position: -286px -14px;} // Republic of Cape Verde --- .ui-currency
+.ui-flag-CYM::before, // {background-position: -308px -14px;} // Cayman Islands KYD --- .ui-country
+.ui-flag-KYD::before {background-position: -308px -14px;} // Cayman Islands --- .ui-currency
+.ui-flag-CAF::before {background-position: -330px -14px;} // Central African Republic XAF --- .ui-country
+// .ui-flag-XAF::before {background-position: -440px -140px;} // Economic and Monetary Community of Central Africa --- .ui-currency
+.ui-flag-TCD::before {background-position: -352px -14px;} // Chad XAF --- .ui-country
+// .ui-flag-XAF::before {background-position: -440px -140px;} // Economic and Monetary Community of Central Africa --- .ui-currency
+.ui-flag-CHL::before, // {background-position: -374px -14px;} // Chile CLP --- .ui-country
+.ui-flag-CLP::before {background-position: -374px -14px;} // Republic of Chile --- .ui-currency
+.ui-flag-CHN::before, // {background-position: -396px -14px;} // China CNY --- .ui-country
+.ui-flag-CNY::before {background-position: -396px -14px;} // People's Republic of China --- .ui-currency
+.ui-flag-CXR::before {background-position: -418px -14px;} // Christmas Island AUD --- .ui-country
+// .ui-flag-AUD::before {background-position: -242px -0px;} // Commonwealth of Australia --- .ui-currency
+.ui-flag-CCK::before {background-position: -440px -14px;} // Cocos (Keeling) Islands AUD --- .ui-country
+// .ui-flag-AUD::before {background-position: -242px -0px;} // Commonwealth of Australia --- .ui-currency
+.ui-flag-COL::before, // {background-position: -462px -14px;} // Colombia COP --- .ui-country
+.ui-flag-COP::before {background-position: -462px -14px;} // Republic of Colombia --- .ui-currency
+.ui-flag-COM::before, // {background-position: -0px -28px;} // Comoros KMF --- .ui-country
+.ui-flag-KMF::before {background-position: -0px -28px;} // Union of the Comoros --- .ui-currency
+.ui-flag-COD::before, // {background-position: -22px -28px;} // Congo (Dem. Rep.) CDF --- .ui-country
+.ui-flag-CDF::before {background-position: -22px -28px;} // Democratic Republic of the Congo --- .ui-currency
+.ui-flag-COG::before {background-position: -44px -28px;} // Congo (Rep.) XAF --- .ui-country
+// .ui-flag-XAF::before {background-position: -440px -140px;} // Economic and Monetary Community of Central Africa --- .ui-currency
+.ui-flag-COK::before {background-position: -66px -28px;} // Cook Islands NZD --- .ui-country
+// .ui-flag-NZD::before {background-position: -396px -84px;} // New Zealand --- .ui-currency
+.ui-flag-CRI::before, // {background-position: -88px -28px;} // Costa Rica CRC --- .ui-country
+.ui-flag-CRC::before {background-position: -88px -28px;} // Republic of Costa Rica --- .ui-currency
+.ui-flag-CIV::before {background-position: -110px -28px;} // Cote d'Ivoire XOF --- .ui-country
+// .ui-flag-XOF::before {background-position: -418px  -140px;} // West African Economic and Monetary Union --- .ui-currency
+.ui-flag-HRV::before, // {background-position: -132px -28px;} // Croatia (Hrvatska) HRK --- .ui-country
+.ui-flag-HRK::before {background-position: -132px -28px;} // Republic of Croatia --- .ui-currency
+.ui-flag-CUB::before, // {background-position: -154px -28px;} // Cuba CUC --- .ui-country
+.ui-flag-CUC::before {background-position: -154px -28px;} // Republic of Cuba --- .ui-currency
+.ui-flag-CYP::before, // {background-position: -176px -28px;} // Cyprus CYP --- .ui-country
+.ui-flag-CYP::before {background-position: -176px -28px;} // Republic of Cyprus --- .ui-currency
+.ui-flag-CZE::before, // {background-position: -198px -28px;} // Czech Republic CZK --- .ui-country
+.ui-flag-CZK::before {background-position: -198px -28px;} // Czech Republic --- .ui-currency
+.ui-flag-DNK::before, // {background-position: -220px -28px;} // Denmark DKK --- .ui-country
+.ui-flag-DKK::before {background-position: -220px -28px;} // Kingdom of Denmark --- .ui-currency
+.ui-flag-DJI::before, // {background-position: -242px -28px;} // Djibouti DJF --- .ui-country
+.ui-flag-DJF::before {background-position: -242px -28px;} // Republic of Djibouti --- .ui-currency
+.ui-flag-DMA::before, // {background-position: -264px -28px;} // Dominica XCD --- .ui-country
+// .ui-flag-XCD::before {background-position: -264px -28px;} // Organisation of Eastern Caribbean States --- .ui-currency
+.ui-flag-DOM::before, // {background-position: -286px -28px;} // Dominican Republic DOP --- .ui-country
+.ui-flag-DOP::before {background-position: -286px -28px;} // Dominican Republic --- .ui-currency
+.ui-flag-ECU::before {background-position: -308px -28px;} // Ecuador USD --- .ui-country
+// .ui-flag-USD::before {background-position: -308px -28px;} // United States of America --- .ui-currency
+.ui-flag-EGY::before, // {background-position: -330px -28px;} // Egypt EGP --- .ui-country
+.ui-flag-EGP::before {background-position: -330px -28px;} // Arab Republic of Egypt --- .ui-currency
+.ui-flag-SLV::before {background-position: -352px -28px;} // El Salvador USD --- .ui-country
+// .ui-flag-USD::before {background-position: -352px -28px;} // United States of America --- .ui-currency
+.ui-flag-GNG::before {background-position: -374px -28px;} // Equatorial Guinea XAF --- .ui-country
+// .ui-flag-XAF::before {background-position: -440px -140px;} // Economic and Monetary Community of Central Africa --- .ui-currency
+.ui-flag-ERI::before, // {background-position: -396px -28px;} // Eritrea ERN --- .ui-country
+.ui-flag-ERN::before {background-position: -396px -28px;} // State of Eritrea --- .ui-currency
+.ui-flag-EST::before, // {background-position: -418px -28px;} // Estonia EEK --- .ui-country
+.ui-flag-EEK::before {background-position: -418px -28px;} // Republic of Estonia --- .ui-currency
+.ui-flag-ETH::before, // {background-position: -440px -28px;} // Ethiopia ETB --- .ui-country
+.ui-flag-ETB::before {background-position: -440px -28px;} // Federal Democratic Republic of Ethiopia --- .ui-currency
+.ui-flag-FRO::before {background-position: -462px -28px;} // Faeroe Islands DKK --- .ui-country
+.ui-flag-DKK::before {background-position: -220px -28px;} // Kingdom of Denmark --- .ui-currency
+.ui-flag-FLK::before, // {background-position: -0px -42px;} // Falkland Islands (Malvinas) FKP --- .ui-country
+.ui-flag-FKP::before {background-position: -0px -42px;} // Falkland Islands (Malvinas) --- .ui-currency
+.ui-flag-FJI::before, // {background-position: -22px -42px;} // Fiji FJD --- .ui-country
+.ui-flag-FJD::before {background-position: -22px -42px;} // Republic of the Fiji Islands --- .ui-currency
+.ui-flag-FIN::before {background-position: -44px -42px;} // Finland EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-FRA::before {background-position: -66px -42px;} // France EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-GUF::before {background-position: -88px -42px;} // French Guiana EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-PYF::before {background-position: -110px -42px;} // French Polynesia XPF --- .ui-country
+.ui-flag-XPF::before {background-position: -462px -140px;} // Institut d'emission d'outre-mer --- .ui-currency
+.ui-flag-ATF::before {background-position: -132px -42px;} // TAAF EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-GAB::before {background-position: -154px -42px;} // Gabon XAF --- .ui-country
+// .ui-flag-XAF::before {background-position: -440px -140px;} // Economic and Monetary Community of Central Africa --- .ui-currency
+.ui-flag-GMB::before, // {background-position: -176px -42px;} // Gambia GMD --- .ui-country
+.ui-flag-GMD::before {background-position: -176px -42px;} // Republic of the Gambia --- .ui-currency
+.ui-flag-GEO::before, // {background-position: -198px -42px;} // Georgia GEL --- .ui-country
+.ui-flag-GEL::before {background-position: -198px -42px;} // Georgia --- .ui-currency
+.ui-flag-DEU::before {background-position: -220px -42px;} // Germany EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-GHA::before, // {background-position: -242px -42px;} // Ghana GHC --- .ui-country
+.ui-flag-GHC::before {background-position: -242px -42px;} // Republic of Ghana --- .ui-currency
+.ui-flag-GIB::before, // {background-position: -264px -42px;} // Gibraltar GIP --- .ui-country
+.ui-flag-GIP::before {background-position: -264px -42px;} // Gibraltar --- .ui-currency
+.ui-flag-GRC::before {background-position: -286px -42px;} // Greece EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-GRL::before {background-position: -308px -42px;} // Greenland DKK --- .ui-country
+.ui-flag-DKK::before {background-position: -220px -28px;} // Kingdom of Denmark --- .ui-currency
+.ui-flag-GRD::before {background-position: -330px -42px;} // Grenada XCD --- .ui-country
+// .ui-flag-XCD::before {background-position: -374px -140px;} // Organisation of Eastern Caribbean States --- .ui-currency
+.ui-flag-GLP::before {background-position: -352px -42px;} // Guadeloupe EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-GUM::before {background-position: -374px -42px;} // Guam USD --- .ui-country
+// .ui-flag-USD::before {background-position: -88px -140px;} // United States of America --- .ui-currency
+.ui-flag-GTM::before, // {background-position: -396px -42px;} // Guatemala GTQ --- .ui-country
+.ui-flag-GTQ::before {background-position: -396px -42px;} // Republic of Guatemala --- .ui-currency
+.ui-flag-GIN::before, // {background-position: -418px -42px;} // Guinea GNF --- .ui-country
+.ui-flag-GNF::before {background-position: -418px -42px;} // Republic of Guinea --- .ui-currency
+.ui-flag-GNB::before {background-position: -440px -42px;} // Guinea-Bissau XOF --- .ui-country
+// .ui-flag-XOF::before {background-position: -418px  -140px;} // West African Economic and Monetary Union --- .ui-currency
+.ui-flag-GUY::before, // {background-position: -462px -42px;} // Guyana GYD --- .ui-country
+.ui-flag-GYD::before {background-position: -462px -42px;} // Republic of Guyana --- .ui-currency
+.ui-flag-HTI::before, // {background-position: -0px -56px;} // Haiti HTG --- .ui-country
+.ui-flag-HTG::before {background-position: -0px -56px;} // Republic of Haiti --- .ui-currency
+.ui-flag-HND::before, // {background-position: -22px -56px;} // Honduras HNL --- .ui-country
+.ui-flag-HNL::before {background-position: -22px -56px;} // Republic of Honduras --- .ui-currency
+.ui-flag-HKG::before, // {background-position: -44px -56px;} // Hong Kong HKD --- .ui-country
+.ui-flag-HKD::before {background-position: -44px -56px;} // Special Admin. Region of the People's Republic of China --- .ui-currency
+.ui-flag-HUN::before, // {background-position: -66px -56px;} // Hungary HUF --- .ui-country
+.ui-flag-HUF::before {background-position: -66px -56px;} // Hungarian People's Republic --- .ui-currency
+.ui-flag-ISL::before, // {background-position: -88px -56px;} // Iceland ISK --- .ui-country
+.ui-flag-ISK::before {background-position: -88px -56px;} // Republic of Iceland --- .ui-currency
+.ui-flag-IND::before, // {background-position: -110px -56px;} // India INR --- .ui-country
+.ui-flag-INR::before {background-position: -110px -56px;} // Republic of India --- .ui-currency
+.ui-flag-IDN::before, // {background-position: -132px -56px;} // Indonesia IDR --- .ui-country
+.ui-flag-IDR::before {background-position: -132px -56px;} // Republic of Indonesia --- .ui-currency
+.ui-flag-IRN::before, // {background-position: -154px -56px;} // Iran IRR --- .ui-country
+.ui-flag-IRR::before {background-position: -154px -56px;} // Islamic Republic of Iran --- .ui-currency
+.ui-flag-IRQ::before, // {background-position: -176px -56px;} // Iraq IQD --- .ui-country
+.ui-flag-IQD::before {background-position: -176px -56px;} // Republic of Iraq --- .ui-currency
+.ui-flag-IRL::before {background-position: -198px -56px;} // Ireland EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-IMN::before {background-position: -220px -56px;} // Isle of Man GBP --- .ui-country
+// .ui-flag-GBP::before {background-position: -66px -140px;} // United Kingdom of Great Britain & Northern Ireland --- .ui-currency
+.ui-flag-ISR::before, // {background-position: -242px -56px;} // Israel ILS --- .ui-country
+.ui-flag-ILS::before {background-position: -242px -56px;} // State of Israel --- .ui-currency
+.ui-flag-ITA::before {background-position: -264px -56px;} // Italy EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-JAM::before, // {background-position: -286px -56px;} // Jamaica JMD --- .ui-country
+.ui-flag-JMD::before {background-position: -286px -56px;} // Jamaica --- .ui-currency
+.ui-flag-JPN::before, // {background-position: -308px -56px;} // Japan JPY --- .ui-country
+.ui-flag-JPY::before {background-position: -308px -56px;} // Japan --- .ui-currency
+.ui-flag-JEY::before {background-position: -330px -56px;} // Jersey GBP --- .ui-country
+// .ui-flag-GBP::before {background-position: -66px -140px;} // United Kingdom of Great Britain & Northern Ireland --- .ui-currency
+.ui-flag-JOR::before, // {background-position: -352px -56px;} // Jordan JOD --- .ui-country
+.ui-flag-JOD::before {background-position: -352px -56px;} // Hashemite Kingdom of Jordan --- .ui-currency
+.ui-flag-KAZ::before, // {background-position: -374px -56px;} // Kazakhstan KZT --- .ui-country
+.ui-flag-KZT::before {background-position: -374px -56px;} // Republic of Kazakhstan --- .ui-currency
+.ui-flag-KEN::before, // {background-position: -396px -56px;} // Kenya KES --- .ui-country
+.ui-flag-KES::before {background-position: -396px -56px;} // Republic of Kenya --- .ui-currency
+.ui-flag-KIR::before {background-position: -418px -56px;} // Kiribati AUD --- .ui-country
+// .ui-flag-AUD::before {background-position: -242px -0px;} // Commonwealth of Australia --- .ui-currency
+.ui-flag-PRK::before, // {background-position: -440px -56px;} // Korea, North KPW --- .ui-country
+.ui-flag-KPW::before {background-position: -440px -56px;} // Democratic People's Republic of Korea --- .ui-currency
+.ui-flag-KOR::before, // {background-position: -462px -56px;} // Korea, South KRW --- .ui-country
+.ui-flag-KRW::before {background-position: -462px -56px;} // Republic of Korea --- .ui-currency
+.ui-flag-KWT::before, // {background-position: -0px -70px;} // Kuwait KWD --- .ui-country
+.ui-flag-KWD::before {background-position: -0px -70px;} // State of Kuwait --- .ui-currency
+.ui-flag-KGZ::before, // {background-position: -22px -70px;} // Kyrgyzstan KGS --- .ui-country
+.ui-flag-KGS::before {background-position: -22px -70px;} // Kyrgyz Republic --- .ui-currency
+.ui-flag-LAO::before, // {background-position: -44px -70px;} // Laos LAK --- .ui-country
+.ui-flag-LAK::before {background-position: -44px -70px;} // Lao People's Democratic Republic --- .ui-currency
+.ui-flag-LVA::before, // {background-position: -66px -70px;} // Latvia LVL --- .ui-country
+.ui-flag-LVL::before {background-position: -66px -70px;} // Republic of Latvia --- .ui-currency
+.ui-flag-LBN::before, // {background-position: -88px -70px;} // Lebanon LBP --- .ui-country
+.ui-flag-LBP::before {background-position: -88px -70px;} // Lebanese Republic --- .ui-currency
+.ui-flag-LSO::before, // {background-position: -110px -70px;} // Lesotho LSL --- .ui-country
+.ui-flag-LSL::before {background-position: -110px -70px;} // Kingdom of Lesotho --- .ui-currency
+.ui-flag-LBR::before, // {background-position: -132px -70px;} // Liberia LRD --- .ui-country
+.ui-flag-LRD::before {background-position: -132px -70px;} // Republic of Liberia --- .ui-currency
+.ui-flag-LBY::before, // {background-position: -154px -70px;} // Libya LYD --- .ui-country
+.ui-flag-LYD::before {background-position: -154px -70px;} // Socialist People's Libyan Arab Jamahiriya --- .ui-currency
+.ui-flag-LIE::before {background-position: -176px -70px;} // Liechtenstein CHF --- .ui-country
+.ui-flag-CHF::before {background-position: -132px -126px;} // Swiss Confederation --- .ui-currency
+.ui-flag-LTU::before, // {background-position: -198px -70px;} // Lithuania LTL --- .ui-country
+.ui-flag-LTL::before {background-position: -198px -70px;} // Republic of Lithuania --- .ui-currency
+.ui-flag-LUX::before {background-position: -220px -70px;} // Luxembourg EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-MAC::before, // {background-position: -242px -70px;} // Macau MOP --- .ui-country
+.ui-flag-MOP::before {background-position: -242px -70px;} // Special Admin. Region of the People's Republic of China --- .ui-currency
+.ui-flag-MKD::before, // {background-position: -264px -70px;} // Macedonia MKD --- .ui-country
+.ui-flag-MKD::before {background-position: -264px -70px;} // Republic of Macedonia --- .ui-currency
+.ui-flag-MDG::before, // {background-position: -286px -70px;} // Madagascar MGA --- .ui-country
+.ui-flag-MGA::before {background-position: -286px -70px;} // Republic of Madagascar --- .ui-currency
+.ui-flag-MWI::before, // {background-position: -308px -70px;} // Malawi MWK --- .ui-country
+.ui-flag-MWK::before {background-position: -308px -70px;} // Republic of Malawi --- .ui-currency
+.ui-flag-MYS::before, // {background-position: -330px -70px;} // Malaysia MYR --- .ui-country
+.ui-flag-MYR::before {background-position: -330px -70px;} // Malaysia --- .ui-currency
+.ui-flag-MDV::before, // {background-position: -352px -70px;} // Maldives MVR --- .ui-country
+.ui-flag-MVR::before {background-position: -352px -70px;} // Republic of Maldives --- .ui-currency
+.ui-flag-MLI::before {background-position: -374px -70px;} // Mali XOF --- .ui-country
+// .ui-flag-XOF::before {background-position: -418px  -140px;} // West African Economic and Monetary Union --- .ui-currency
+.ui-flag-MLT::before, // {background-position: -396px -70px;} // Malta MTL --- .ui-country
+.ui-flag-MTL::before {background-position: -396px -70px;} // Republic of Malta --- .ui-currency
+.ui-flag-MHL::before {background-position: -418px -70px;} // Marshall Islands USD --- .ui-country
+// .ui-flag-USD::before {background-position: -88px -140px;} // United States of America --- .ui-currency
+.ui-flag-MTQ::before {background-position: -440px -70px;} // Martinique EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-MRT::before, // {background-position: -462px -70px;} // Mauritania MRO --- .ui-country
+.ui-flag-MRO::before {background-position: -462px -70px;} // Islamic Republic of Mauritania --- .ui-currency
+.ui-flag-MUS::before, // {background-position: -0px -84px;} // Mauritius MUR --- .ui-country
+.ui-flag-MUR::before {background-position: -0px -84px;} // Republic of Mauritius --- .ui-currency
+.ui-flag-MYT::before {background-position: -22px -84px;} // Mayotte EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-MEX::before, // {background-position: -44px -84px;} // Mexico MXN --- .ui-country
+.ui-flag-MXN::before {background-position: -44px -84px;} // United Mexican States --- .ui-currency
+.ui-flag-FSM::before {background-position: -66px -84px;} // Micronesia USD --- .ui-country
+// .ui-flag-USD::before {background-position: -88px -140px;} // United States of America --- .ui-currency
+.ui-flag-MDA::before, // {background-position: -88px -84px;} // Moldova MDL --- .ui-country
+.ui-flag-MDL::before {background-position: -88px -84px;} // Republic of Moldova --- .ui-currency
+.ui-flag-MCO::before {background-position: -110px -84px;} // Monaco EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-MNG::before, // {background-position: -132px -84px;} // Mongolia MNT --- .ui-country
+.ui-flag-MNT::before {background-position: -132px -84px;} // Mongolian People's Republic --- .ui-currency
+.ui-flag-MNE::before {background-position: -154px -84px;} // Montenegro EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-MSR::before {background-position: -176px -84px;} // Montserrat XCD --- .ui-country
+// .ui-flag-XCD::before {background-position: -374px -140px;} // Organisation of Eastern Caribbean States --- .ui-currency
+.ui-flag-MAR::before, // {background-position: -198px -84px;} // Morocco MAD --- .ui-country
+.ui-flag-MAD::before {background-position: -198px -84px;} // Kingdom of Morocco --- .ui-currency
+.ui-flag-MOZ::before, // {background-position: -220px -84px;} // Mozambique MZN --- .ui-country
+.ui-flag-MZN::before {background-position: -220px -84px;} // People's Republic of Mozambique --- .ui-currency
+.ui-flag-MMR::before, // {background-position: -242px -84px;} // Myanmar (Burma) MMK --- .ui-country
+.ui-flag-MMK::before {background-position: -242px -84px;} // Union of Myanmar --- .ui-currency
+.ui-flag-NAM::before, // {background-position: -264px -84px;} // Namibia NAD --- .ui-country
+.ui-flag-NAD::before {background-position: -264px -84px;} // Republic of Namibia --- .ui-currency
+.ui-flag-NRU::before {background-position: -286px -84px;} // Nauru AUD --- .ui-country
+// .ui-flag-AUD::before {background-position: -242px -0px;} // Commonwealth of Australia --- .ui-currency
+.ui-flag-NPL::before, // {background-position: -308px -84px;} // Nepal NPR --- .ui-country
+.ui-flag-NPR::before {background-position: -308px -84px;} // Kingdom of Nepal --- .ui-currency
+.ui-flag-NLD::before {background-position: -330px -84px;} // Netherlands EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-ANT::before, // {background-position: -352px -84px;} // Netherlands Antilles ANG --- .ui-country
+.ui-flag-ANG::before {background-position: -352px -84px;} // Netherlands Antilles --- .ui-currency
+.ui-flag-NCL::before {background-position: -374px -84px;} // New Caledonia XPF --- .ui-country
+.ui-flag-XPF::before {background-position: -462px -140px;} // Institut d'emission d'outre-mer --- .ui-currency
+.ui-flag-NZL::before, // {background-position: -396px -84px;} // New Zealand NZD --- .ui-country
+.ui-flag-NZD::before {background-position: -396px -84px;} // New Zealand --- .ui-currency
+.ui-flag-NIC::before, // {background-position: -418px -84px;} // Nicaragua NIO --- .ui-country
+.ui-flag-NIO::before {background-position: -418px -84px;} // Republic of Nicaragua --- .ui-currency
+.ui-flag-NER::before {background-position: -440px -84px;} // Niger XOF --- .ui-country
+// .ui-flag-XOF::before {background-position: -418px  -140px;} // West African Economic and Monetary Union --- .ui-currency
+.ui-flag-NGA::before, // {background-position: -462px -84px;} // Nigeria NGN --- .ui-country
+.ui-flag-NGN::before {background-position: -462px -84px;} // Federal Republic of Nigeria --- .ui-currency
+.ui-flag-NIU::before {background-position: -0px -98px;} // Niue NZD --- .ui-country
+// .ui-flag-NZD::before {background-position: -396px -84px;} // New Zealand --- .ui-currency
+.ui-flag-NFK::before {background-position: -22px -98px;} // Norfolk Island AUD --- .ui-country
+// .ui-flag-AUD::before {background-position: -242px -0px;} // Commonwealth of Australia --- .ui-currency
+.ui-flag-MNP::before {background-position: -44px -98px;} // Northern Mariana Islands USD --- .ui-country
+// .ui-flag-USD::before {background-position: -88px -140px;} // United States of America --- .ui-currency
+.ui-flag-NOR::before, // {background-position: -66px -98px;} // Norway NOK --- .ui-country
+.ui-flag-NOK::before {background-position: -66px -98px;} // Kingdom of Norway --- .ui-currency
+.ui-flag-OMN::before, // {background-position: -88px -98px;} // Oman OMR --- .ui-country
+.ui-flag-OMR::before {background-position: -88px -98px;} // Sultanate of Oman --- .ui-currency
+.ui-flag-PAK::before, // {background-position: -110px -98px;} // Pakistan PKR --- .ui-country
+.ui-flag-PKR::before {background-position: -110px -98px;} // Islamic Republic of Pakistan --- .ui-currency
+.ui-flag-PLW::before {background-position: -132px -98px;} // Palau USD --- .ui-country
+// .ui-flag-USD::before {background-position: -88px -140px;} // United States of America --- .ui-currency
+.ui-flag-PSE::before, // {background-position: -154px -98px;} // Palestine JOD --- .ui-country
+.ui-flag-JOD::before {background-position: -154px -98px;} // Hashemite Kingdom of Jordan --- .ui-currency
+.ui-flag-PAN::before, // {background-position: -176px -98px;} // Panama PAB --- .ui-country
+.ui-flag-PAB::before {background-position: -176px -98px;} // Republic of Panama --- .ui-currency
+.ui-flag-PNG::before, // {background-position: -198px -98px;} // Papua New Guinea PGK --- .ui-country
+.ui-flag-PGK::before {background-position: -198px -98px;} // The Independent State of Papua New Guinea --- .ui-currency
+.ui-flag-PRY::before, // {background-position: -220px -98px;} // Paraguay PYG --- .ui-country
+.ui-flag-PYG::before {background-position: -220px -98px;} // Republic of, Paraguay --- .ui-currency
+.ui-flag-PER::before, // {background-position: -242px -98px;} // Peru PEN --- .ui-country
+.ui-flag-PEN::before {background-position: -242px -98px;} // Republic of Peru --- .ui-currency
+.ui-flag-PHL::before, // {background-position: -264px -98px;} // Philippines PHP --- .ui-country
+.ui-flag-PHP::before {background-position: -264px -98px;} // Republic of the Philippines --- .ui-currency
+.ui-flag-PCN::before {background-position: -286px -98px;} // Pitcairn Islands NZD --- .ui-country
+// .ui-flag-NZD::before {background-position: -396px -84px;} // New Zealand --- .ui-currency
+.ui-flag-POL::before {background-position: -308px -98px;} // Poland PLN --- .ui-country
+.ui-flag-PLN::before, // {background-position: -330px -98px;} // Polish People's Republic --- .ui-currency
+.ui-flag-PRT::before {background-position: -330px -98px;} // Portugal EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -98px;} // European Economic Community --- .ui-currency
+.ui-flag-PRI::before {background-position: -352px -98px;} // Puerto Rico USD --- .ui-country
+// .ui-flag-USD::before {background-position: -88px -140px;} // United States of America --- .ui-currency
+.ui-flag-QAT::before, // {background-position: -374px -98px;} // Qatar QAR --- .ui-country
+.ui-flag-QAR::before {background-position: -374px -98px;} // State of Qatar --- .ui-currency
+.ui-flag-REU::before {background-position: -396px -98px;} // Reunion EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-ROU::before, // {background-position: -418px -98px;} // Romania RON --- .ui-country
+.ui-flag-RON::before {background-position: -418px -98px;} // People's Republic of Romania --- .ui-currency
+.ui-flag-RUS::before, // {background-position: -440px -98px;} // Russia RUB --- .ui-country
+.ui-flag-RUB::before {background-position: -440px -98px;} // Russian Federation --- .ui-currency
+.ui-flag-RWA::before, // {background-position: -462px -98px;} // Rwanda RWF --- .ui-country
+.ui-flag-RWF::before {background-position: -462px -98px;} // Rwandese Republic --- .ui-currency
+.ui-flag-SHN::before, // {background-position: -0px -112px;} // St Helena SHP --- .ui-country
+.ui-flag-SHP::before {background-position: -0px -112px;} // Saint Helena --- .ui-currency
+.ui-flag-KNA::before {background-position: -22px -112px;} // St Kitts & Nevis XCD --- .ui-country
+// .ui-flag-XCD::before {background-position: -374px -140px;} // Organisation of Eastern Caribbean States --- .ui-currency
+.ui-flag-LCA::before {background-position: -44px -112px;} // St Lucia XCD --- .ui-country
+// .ui-flag-XCD::before {background-position: -374px -140px;} // Organisation of Eastern Caribbean States --- .ui-currency
+.ui-flag-SPM::before {background-position: -66px -112px;} // St Pierre & Miquelon EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-VCT::before {background-position: -88px -112px;} // St Vincent & Grenadines XCD --- .ui-country
+// .ui-flag-XCD::before {background-position: -374px -140px;} // Organisation of Eastern Caribbean States --- .ui-currency
+.ui-flag-WSM::before, // {background-position: -110px -112px;} // Samoa WST --- .ui-country
+.ui-flag-WST::before {background-position: -110px -112px;} // Independent State of Samoa --- .ui-currency
+.ui-flag-ASM::before {background-position: -132px -112px;} // Samoa (American) USD --- .ui-country
+// .ui-flag-USD::before {background-position: -88px -140px;} // United States of America --- .ui-currency
+.ui-flag-SMR::before {background-position: -154px -112px;} // San Marino EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-STP::before, // {background-position: -176px -112px;} // Sao Tome & Principe STD --- .ui-country
+.ui-flag-STD::before {background-position: -176px -112px;} // Democratic Republic of Sao Tome and Principe --- .ui-currency
+.ui-flag-SAU::before, // {background-position: -198px -112px;} // Saudi Arabia SAR --- .ui-country
+.ui-flag-SAR::before {background-position: -198px -112px;} // Kingdom of Saudi Arabia --- .ui-currency
+.ui-flag-SEN::before {background-position: -220px -112px;} // Senegal XOF --- .ui-country
+// .ui-flag-XOF::before {background-position: -418px  -140px;} // West African Economic and Monetary Union --- .ui-currency
+.ui-flag-SCG::before, // {background-position: -242px -112px;} // Serbia RSD --- .ui-country
+.ui-flag-RSD::before {background-position: -242px -112px;} // Republic of Serbia --- .ui-currency
+.ui-flag-SYC::before, // {background-position: -264px -112px;} // Seychelles SCR --- .ui-country
+.ui-flag-SCR::before {background-position: -264px -112px;} // Republic of Seychelles --- .ui-currency
+.ui-flag-SLE::before, // {background-position: -286px -112px;} // Sierra Leone SLL --- .ui-country
+.ui-flag-SLL::before {background-position: -286px -112px;} // Republic of Sierra Leone --- .ui-currency
+.ui-flag-SGP::before, // {background-position: -308px -112px;} // Singapore SGD --- .ui-country
+.ui-flag-SGD::before {background-position: -308px -112px;} // Republic of Singapore --- .ui-currency
+.ui-flag-SVK::before, // {background-position: -330px -112px;} // Slovakia SKK --- .ui-country
+.ui-flag-SKK::before {background-position: -330px -112px;} // Slovak Republic --- .ui-currency
+.ui-flag-SVN::before {background-position: -352px -112px;} // Slovenia EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-SLB::before, // {background-position: -374px -112px;} // Solomon Islands SBD --- .ui-country
+.ui-flag-SBD::before {background-position: -374px -112px;} // Solomon Islands --- .ui-currency
+.ui-flag-SOM::before, // {background-position: -396px -112px;} // Somalia SOS --- .ui-country
+.ui-flag-SOS::before {background-position: -396px -112px;} // Somali Republic --- .ui-currency
+.ui-flag-ZAF::before, // {background-position: -418px -112px;} // South Africa ZAR --- .ui-country
+.ui-flag-ZAR::before {background-position: -418px -112px;} // Republic of South Africa --- .ui-currency
+.ui-flag-SGS::before {background-position: -440px -112px;} // South Georgia Islands GBP --- .ui-country
+// .ui-flag-GBP::before {background-position: -66px -140px;} // United Kingdom of Great Britain & Northern Ireland --- .ui-currency
+.ui-flag-ESP::before {background-position: -462px -112px;} // Spain EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-LKA::before, // {background-position: -0px -126px;} // Sri Lanka LKR --- .ui-country
+.ui-flag-LKR::before {background-position: -0px -126px;} // Democratic Socialist Republic of Sri Lanka --- .ui-currency
+.ui-flag-SDN::before, // {background-position: -22px -126px;} // Sudan SDD --- .ui-country
+.ui-flag-SDD::before {background-position: -22px -126px;} // Democratic Republic of the Sudan --- .ui-currency
+.ui-flag-SUR::before, // {background-position: -44px -126px;} // Suriname SRD --- .ui-country
+.ui-flag-SRD::before {background-position: -44px -126px;} // Republic of Suriname --- .ui-currency
+.ui-flag-SJM::before, // {background-position: -66px -126px;} // Svalbard & Jan Mayen NOK --- .ui-country
+.ui-flag-NOK::before {background-position: -66px -126px;} // Kingdom of Norway --- .ui-currency
+.ui-flag-SWZ::before, // {background-position: -88px -126px;} // Swaziland SZL --- .ui-country
+.ui-flag-SZL::before {background-position: -88px -126px;} // Kingdom of Swaziland --- .ui-currency
+.ui-flag-SWE::before, // {background-position: -110px -126px;} // Sweden SEK --- .ui-country
+.ui-flag-SEK::before {background-position: -110px -126px;} // Kingdom of Sweden --- .ui-currency
+.ui-flag-CHE::before, // {background-position: -132px -126px;} // Switzerland CHF --- .ui-country
+.ui-flag-CHF::before {background-position: -132px -126px;} // Swiss Confederation --- .ui-currency
+.ui-flag-SYR::before, // {background-position: -154px -126px;} // Syria SYP --- .ui-country
+.ui-flag-SYP::before {background-position: -154px -126px;} // Syrian Arab Republic --- .ui-currency
+.ui-flag-TWN::before, // {background-position: -176px -126px;} // Taiwan TWD --- .ui-country
+.ui-flag-TWD::before {background-position: -176px -126px;} // Republic of China --- .ui-currency
+.ui-flag-TJK::before, // {background-position: -198px -126px;} // Tajikistan TJS --- .ui-country
+.ui-flag-TJS::before {background-position: -198px -126px;} // Republic of Tajikistan --- .ui-currency
+.ui-flag-TZA::before, // {background-position: -220px -126px;} // Tanzania TZS --- .ui-country
+.ui-flag-TZS::before {background-position: -220px -126px;} // United Republic of Tanzania --- .ui-currency
+.ui-flag-THA::before, // {background-position: -242px -126px;} // Thailand THB --- .ui-country
+.ui-flag-THB::before {background-position: -242px -126px;} // Kingdom of Thailand --- .ui-currency
+.ui-flag-TLS::before {background-position: -264px -126px;} // Timor-Leste USD --- .ui-country
+// .ui-flag-USD::before {background-position: -88px -140px;} // United States of America --- .ui-currency
+.ui-flag-TGO::before {background-position: -286px -126px;} // Togo XOF --- .ui-country
+// .ui-flag-XOF::before {background-position: -418px  -140px;} // West African Economic and Monetary Union --- .ui-currency
+.ui-flag-TKL::before {background-position: -308px -126px;} // Tokelau NZD --- .ui-country
+// .ui-flag-NZD::before {background-position: -396px -84px;} // New Zealand --- .ui-currency
+.ui-flag-TON::before, // {background-position: -330px -126px;} // Tonga TOP --- .ui-country
+.ui-flag-TOP::before {background-position: -330px -126px;} // Kingdom of Tonga --- .ui-currency
+.ui-flag-TTO::before, // {background-position: -352px -126px;} // Trinidad & Tobago TTD --- .ui-country
+.ui-flag-TTD::before {background-position: -352px -126px;} // Republic of Trinidad and Tobago --- .ui-currency
+.ui-flag-TUN::before, // {background-position: -374px -126px;} // Tunisia TND --- .ui-country
+.ui-flag-TND::before {background-position: -374px -126px;} // Republic of Tunisia --- .ui-currency
+.ui-flag-TUR::before, // {background-position: -396px -126px;} // Turkey TRY --- .ui-country
+.ui-flag-TRY::before {background-position: -396px -126px;} // Republic of Turkey --- .ui-currency
+.ui-flag-TKM::before, // {background-position: -418px -126px;} // Turkmenistan TMM --- .ui-country
+.ui-flag-TMM::before {background-position: -418px -126px;} // Turkmenistan --- .ui-currency
+.ui-flag-TCA::before {background-position: -440px -126px;} // Turks & Caicos Islands USD --- .ui-country
+// .ui-flag-USD::before {background-position: -88px -140px;} // United States of America --- .ui-currency
+.ui-flag-TUV::before {background-position: -462px -126px;} // Tuvalu AUD --- .ui-country
+// .ui-flag-AUD::before {background-position: -242px -0px;} // Commonwealth of Australia --- .ui-currency
+.ui-flag-UGA::before, // {background-position: -0px -140px;} // Uganda UGX --- .ui-country
+.ui-flag-UGX::before {background-position: -0px -140px;} // Republic of Uganda --- .ui-currency
+.ui-flag-UKR::before, // {background-position: -22px -140px;} // Ukraine UAH --- .ui-country
+.ui-flag-UAH::before {background-position: -22px -140px;} // Ukraine --- .ui-currency
+.ui-flag-ARE::before, // {background-position: -44px -140px;} // United Arab Emirates AED --- .ui-country
+.ui-flag-AED::before {background-position: -44px -140px;} // United Arab Emirates --- .ui-currency
+.ui-flag-GBR::before, // {background-position: -66px -140px;} // UK GBP --- .ui-country
+.ui-flag-GBP::before {background-position: -66px -140px;} // United Kingdom of Great Britain & Northern Ireland --- .ui-currency
+.ui-flag-USA::before, // {background-position: -88px -140px;} // USA USD --- .ui-country
+.ui-flag-USD::before {background-position: -88px -140px;} // United States of America --- .ui-currency
+.ui-flag-URY::before, // {background-position: -110px -140px;} // Uruguay UYU --- .ui-country
+.ui-flag-URU::before {background-position: -110px -140px;} // Eastern Republic of Uruguay --- .ui-currency
+.ui-flag-UZB::before, // {background-position: -132px -140px;} // Uzbekistan UZS --- .ui-country
+.ui-flag-UZS::before {background-position: -132px -140px;} // Republic of Uzbekistan --- .ui-currency
+.ui-flag-VUT::before, // {background-position: -154px -140px;} // Vanuatu VUV --- .ui-country
+.ui-flag-VUV::before {background-position: -154px -140px;} // Republic of Vanuatu --- .ui-currency
+.ui-flag-VAT::before {background-position: -176px -140px;} // Vatican City EUR --- .ui-country
+// .ui-flag-EUR::before {background-position: -396px -140px;} // European Economic Community --- .ui-currency
+.ui-flag-VEN::before, // {background-position: -198px -140px;} // Venezuela VEB --- .ui-country
+.ui-flag-VEB::before {background-position: -198px -140px;} // Bolivarian Republic of Venezuela --- .ui-currency
+.ui-flag-VNM::before, // {background-position: -220px -140px;} // Vietnam VND --- .ui-country
+.ui-flag-VND::before {background-position: -220px -140px;} // Socialist Republic of Vietnam --- .ui-currency
+.ui-flag-VGB::before {background-position: -242px -140px;} // Virgin Islands, British USD --- .ui-country
+// .ui-flag-USD::before {background-position: -88px -140px;} // United States of America --- .ui-currency
+.ui-flag-VIR::before {background-position: -264px -140px;} // Virgin Islands, United States USD --- .ui-country
+// .ui-flag-USD::before {background-position: -88px -140px;} // United States of America --- .ui-currency
+.ui-flag-WLF::before {background-position: -286px -140px;} // Wallis & Futuna XPF --- .ui-country
+.ui-flag-XPF::before {background-position: -462px -140px;} // Institut d'emission d'outre-mer --- .ui-currency
+.ui-flag-YEM::before, // {background-position: -308px -140px;} // Yemen YER --- .ui-country
+.ui-flag-YER::before {background-position: -308px -140px;} // Republic of Yemen --- .ui-currency
+.ui-flag-ZMB::before, // {background-position: -330px -140px;} // Zambia ZMK --- .ui-country
+.ui-flag-ZMK::before {background-position: -330px -140px;} // Republic of Zambia --- .ui-currency
+.ui-flag-ZWE::before, // {background-position: -352px -140px;} // Zimbabwe ZWD --- .ui-country
+.ui-flag-ZWD::before {background-position: -352px -140px;} // Republic of Zimbabwe --- .ui-currency
